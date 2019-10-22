@@ -1,0 +1,55 @@
+ul .Link{
+    text-decoration: none;
+    display: inline;
+    margin: 1px 85px;
+    color:blueviolet;
+}
+
+.opentext{
+   margin-left: 90%;
+   cursor: pointer;
+}
+
+.SearchPost{
+    color: grey;
+    width: 25%;
+}
+
+.background{
+    background: #614ad3;
+}
+
+.uploadPost{
+    position: relative;
+    float:center;
+    padding: 10px;
+    width: 25%;
+    background:#614ad3;
+}
+
+@media only screen and (max-width: 600px) {
+    ul .Link{
+      display: block;
+      margin: 15px auto;
+    }
+    .SearchPost{
+        width: 70%;
+    }
+    .uploadPost{
+        width: 70%;
+    }
+    
+  }
+  @media only screen and (max-width: 900px) {
+    ul .Link{
+      display: block;
+      margin: 13px auto;
+    }
+    .SearchPost{
+        width: 60%;
+    }
+    .uploadPost{
+        width: 50%;
+    }
+    
+  }
